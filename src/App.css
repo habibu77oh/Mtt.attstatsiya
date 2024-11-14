@@ -1,0 +1,6 @@
+body {
+    user-select: none; /* Matn tanlashni bloklash */
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}

@@ -1,0 +1,44 @@
+.purchase{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.purchase-title{
+    margin: 0;
+}
+
+.purchase-container{
+    width: 380px;
+    height: 340px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.purchase-form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.purchase-input{
+    padding: 10px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 300px;
+}
+
+.purchase-button{
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: #4CAF50;
+    width: 300px;
+}
