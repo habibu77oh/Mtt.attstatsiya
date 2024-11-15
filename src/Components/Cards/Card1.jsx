@@ -20,7 +20,7 @@ function Card1() {
   const userName = localStorage.getItem("currentUserName");
 
   useEffect(() => {
-    const storedQuestions = JSON.parse(localStorage.getItem("questions")) || [];
+    const storedQuestions = JSON.parse(localStorage.getItem("questions1")) || [];
     setQuestions(storedQuestions);
   }, []);
 
